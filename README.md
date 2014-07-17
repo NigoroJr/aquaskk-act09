@@ -10,3 +10,10 @@ Inspired by [ACT on AquaSKK](https://github.com/eiel/aquaskk-act).
     $ ./install.sh
 
 Yep, it's that simple :)
+
+## Note
+The encoding needs to be eucjp.
+
+    :w ++enc=eucjp
+
+in Vim.
