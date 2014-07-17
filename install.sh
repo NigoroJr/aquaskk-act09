@@ -1,10 +1,10 @@
 #!/bin/sh
 
-DEST="$HOME/Library/Application\ Support/AquaSKK/"
+DEST="$HOME/Library/Application Support/AquaSKK/"
 
 if [ ! -d "$DEST" ]; then
-    echo "Please install AquaSKK first" 1>&2
+    echo "$DEST not found. Please install AquaSKK first" 1>&2
 else
-    cp ./kana-rule.conf $DEST
-    cp ./keymap.conf $DEST
+    cp -v ./kana-rule.conf "$DEST"
+    cp -v ./keymap.conf "$DEST"
 fi
