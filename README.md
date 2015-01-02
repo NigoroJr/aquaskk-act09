@@ -17,3 +17,6 @@ The encoding needs to be eucjp.
     :w ++enc=eucjp
 
 in Vim.
+
+## License
+Same as AquaSKK (GNU GPLv2)
